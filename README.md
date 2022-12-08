@@ -1,6 +1,6 @@
 # Hello :)
 
-I build this project with **JavaScript**, **WDIO** as Appium client and **Mocha** as test runner.  
+I built this project with **JavaScript**, **WDIO** as Appium client and **Mocha** as test runner.  
 
 ### Before we start you need to install next tools
 
@@ -9,7 +9,7 @@ I build this project with **JavaScript**, **WDIO** as Appium client and **Mocha*
 3. Appium `npm install -g appium@latest`
 4. IOS Appium driver `appium driver install --source=npm appium-xcuitest-driver@4.13.2`
 
-### Then we need to configure the project
+### Then we need to configure project
 
 In the file `config/wdio.appium.ios.conf.js` you'll find next properties
 
@@ -24,7 +24,7 @@ In the file `config/wdio.appium.ios.conf.js` you'll find next properties
 2. As for the app path you can copy it from xcode
 ![App path](readme/app-path.png)
 
-### Now we are ready to run the test
+### Now we are ready to run the tests
 
 1. First install project dependencies `npm install`
 2. Run tests via command `npm run test:e2e`
