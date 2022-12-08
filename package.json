@@ -1,0 +1,20 @@
+{
+  "name": "openweb-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test:e2e": "wdio run ./config/wdio.appium.ios.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "@wdio/appium-service": "^7.19.5",
+    "@wdio/cli": "7.19.7",
+    "@wdio/local-runner": "7.19.7",
+    "@wdio/mocha-framework": "7.19.7",
+    "@wdio/spec-reporter": "7.19.7"
+  }
+}
