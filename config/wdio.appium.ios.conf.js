@@ -30,7 +30,7 @@ config.capabilities = [
     "appium:automationName": "XCUITest",
     // The path to the app
     "appium:app":
-      "/Users/volodymyrparlah/Documents/investigation/appium-boilerplate/apps/AutomationInterview.zip",
+      "/Users/volodymyrparlah/Library/Developer/Xcode/DerivedData/AutomationInterview-fbjfnlshuwkqxohleaoqhddwrzzi/Build/Products/Debug-iphonesimulator/AutomationInterview.app",
 
     "appium:newCommandTimeout": 240,
   },
